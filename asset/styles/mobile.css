@@ -1,0 +1,45 @@
+@media screen and (max-width: 500px) {
+  .nav-p,.nav-t {
+    gap: 10px;
+  }
+  ul {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #présentation {
+    gap: 10px;
+  }
+  button:active {
+    transform: scale(1.4);
+    background-color: pink;
+    color: var(--h1--color);
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  .card-horizontal {
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  #projet {
+    flex-direction: column;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+  .card:active {
+    transform: scale(1.1);
+ }
+
+  footer {
+    flex-direction: row;
+   padding-right: 40px;
+  }
+}

@@ -1,0 +1,29 @@
+:root {
+    --nav--background-color: brown;
+    --nav--color: white;
+    --h1--color: rgb(53, 5, 5);
+  }
+  .Colcenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .RowCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .RowSpace-Around {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .RowEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
